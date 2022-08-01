@@ -1,4 +1,4 @@
-# VCloset
+# VCloset 👔
 The VCloset app serves as your ultimate virtual closet.
 Upload your clothing items once, and VCloset will recommend you a daily outfit, according to the current local weather ☀️
 
