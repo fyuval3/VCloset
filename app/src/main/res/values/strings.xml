@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">VCloset</string>
+    <string name="weatherPlaceHolder">Loading local temperature…</string>
+    <string name="tempUnknown">Local temperature is unknown</string>
+    <string name="clothingBtnStr">My Clothes</string>
+    <string name="fitsBtnStr">My Outfits</string>
+    <string name="locationPermissionRequiredTitle">Location permission required</string>
+    <string name="locationPermissionRequiredParagraph">To allow us to provide you with the local weather, you will have to grant the permission to access your location.\nWould you like to proceed?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="OK">OK</string>
+    <string name="locationPermissionDeniedParagraph">Unfortunately, you cannot use this app to get your local weather without granting it permission to access your location.</string>
+    <string name="getLocationFailed">Could not find your current phone\'s location.</string>
+
+    <string name="checkFitBtn">View outfit</string>
+    <string name="addItemBtn">Add item</string>
+    <string name="saveFitBtn">Save outfit</string>
+    <string name="outfitsHeader">My outfits</string>
+
+    <string name="Saved">Saved</string>
+    <string name="Not_Save">Not Saved: %1$s</string>
+    <string name="ColdWarmError">Please specify whether this is a warm or cold clothing item</string>
+    <string name="ItemTypeError">Please specify the type of this clothing item</string>
+
+    <string name="uploadFromGallery">Upload From Gallery</string>
+    <string name="uploadFromCamera">Upload From Camera</string>
+    <string name="description">Description</string>
+    <string name="type_of_clothing">Type</string>
+    <string name="shirt">Shirt</string>
+    <string name="shirts">Shirts</string>
+    <string name="pants">Pants</string>
+    <string name="warm_or_cold_clothing">Warm / Cold</string>
+    <string name="warm">Warm</string>
+    <string name="cold">Cold</string>
+    <string name="save">Save</string>
+    <string name="img">Img</string>
+
+    <string name="take_picture">Take a picture</string>
+    <string name="take_picture_description">Camera picture for sample app</string>
+    <string name="pantsOrShirtNotSelected">Please select both shirt and pants</string>
+    <string name="remove_item">Remove item</string>
+    <string name="remove_outfit">Remove outfit</string>
+
+</resources>

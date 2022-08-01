@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="shirts_remove_option" type="id"/>
+    <item name="pants_remove_option" type="id"/>
+    <item name="outfits_remove_option" type="id" />
+</resources>

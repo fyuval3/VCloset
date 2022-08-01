@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/recycleviewItem"
+    android:background="@color/skyBlue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shirtLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/pantsLayout"
+        >
+
+        <ImageView
+            android:id="@+id/itemImageShirt"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical|start"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_baseline_checkroom_24"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/descriptionShirt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description (?)"
+                android:textSize="15sp"
+                style="@style/header"/>
+
+            <TextView
+                android:id="@+id/itemTypeShirt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item type (?)"
+                android:textSize="15sp"
+                style="@style/header"/>
+
+            <TextView
+                android:id="@+id/coldOrWarmShirt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cold/Warm (?)"
+                android:textSize="15sp"
+                style="@style/header"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pantsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/itemImagePants"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical|start"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_baseline_checkroom_24"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/descriptionPants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description (?)"
+                android:textSize="15sp"
+                style="@style/header"/>
+
+            <TextView
+                android:id="@+id/itemTypePants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item type (?)"
+                android:textSize="15sp"
+                style="@style/header"/>
+
+            <TextView
+                android:id="@+id/coldOrWarmPants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cold/Warm (?)"
+                android:textSize="15sp"
+                style="@style/header"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.SaveOutfitFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/photoNameLayoutShirt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/recycleview">
+
+            <ImageView
+                android:id="@+id/shirtPlaceHolder"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_baseline_checkroom_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/shirtTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shirt"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/shirtPlaceHolder"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/header"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/photoNameLayoutPants"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/photoNameLayoutShirt"
+            style="@style/recycleview">
+
+            <ImageView
+                android:id="@+id/pantsPlaceHolder"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_baseline_checkroom_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pantsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pants"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/pantsPlaceHolder"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/header"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="@string/saveFitBtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.AddClothingItem"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient">
+
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="318dp"
+            android:layout_height="233dp"
+            android:layout_margin="40dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/ic_baseline_checkroom_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_baseline_checkroom_24" />
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/clothingNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/item_img"
+                android:layout_margin="40dp"
+                >
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/description"
+                android:textColorHint="#616161" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/save_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clothingNameInput">
+
+            <RadioGroup
+                android:id="@+id/itemType"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:weightSum="1"
+
+                >
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type_of_clothing"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/shirt_radio"
+                    style="@style/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shirts"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/pants_radio"
+                    style="@style/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pants"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/wormCold"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/warm_or_cold_clothing"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/warm_radio"
+                    style="@style/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/warm"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/cold_radio"
+                    style="@style/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cold"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_margin="40dp"
+                />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/photo_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:contentDescription="@string/uploadFromGallery"
+            android:src="@drawable/ic_baseline_arrow_circle_up_24"
+            app:layout_constraintBottom_toBottomOf="@+id/item_img"
+            app:layout_constraintEnd_toEndOf="@+id/item_img"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/item_img"
+            app:layout_constraintTop_toTopOf="@+id/item_img"
+            app:layout_constraintVertical_bias="1.0"
+            android:focusable="true" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/takeAPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:contentDescription="@string/uploadFromCamera"
+            android:src="@drawable/ic_baseline_camera_alt_24"
+            app:layout_constraintBottom_toBottomOf="@+id/item_img"
+            app:layout_constraintEnd_toEndOf="@+id/item_img"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/item_img"
+            app:layout_constraintTop_toTopOf="@+id/item_img"
+            app:layout_constraintVertical_bias="1.0"
+            android:focusable="true" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

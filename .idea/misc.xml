@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alon Levy/Documents/GitHub/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/activity_main.xml" value="0.12454710144927536" />
+        <entry key="..\:/Users/Alon Levy/Documents/GitHub/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/clothing_item_layout.xml" value="0.1828125" />
+        <entry key="..\:/Users/Alon Levy/Documents/GitHub/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_add_clothing_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/Alon Levy/Documents/GitHub/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_outfits_list.xml" value="0.1828125" />
+        <entry key="..\:/Users/Yuval/AndroidStudioProjects/AndroidFinalProject/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Yuval/AndroidStudioProjects/AndroidFinalProject/app/src/main/res/layout/fragment_outfits_list.xml" value="0.1" />
+        <entry key="..\:/Users/Yuval/AndroidStudioProjects/AndroidFinalProject/app/src/main/res/layout/fragment_save_outfit.xml" value="0.1" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable/app_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable/background_selector.xml" value="0.1935" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable/cloudy.xml" value="0.1505" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.1505" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable/ic_baseline_checkroom_24.xml" value="0.1505" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/drawable/sunny.xml" value="0.1505" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/clothing_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_entry.xml" value="0.3625" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_item_options.xml" value="0.29923273657289" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_outfits_list.xml" value="0.3625" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_save_outfit.xml" value="0.3625" />
+        <entry key="..\:/Users/Yuval/Desktop/IDC/AndroidDev/Final Project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/outfit_item_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/odeds/OneDrive - The Interdisciplinary Center Herzliya IDC/Universaty/SemesterD/Kotlin/HomeWork/final project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_add_cloathing_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/odeds/OneDrive - The Interdisciplinary Center Herzliya IDC/Universaty/SemesterD/Kotlin/HomeWork/final project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_entry.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/odeds/OneDrive - The Interdisciplinary Center Herzliya IDC/Universaty/SemesterD/Kotlin/HomeWork/final project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_item_options.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/odeds/OneDrive - The Interdisciplinary Center Herzliya IDC/Universaty/SemesterD/Kotlin/HomeWork/final project/Android-Final-Project/AndroidFinalProject/app/src/main/res/layout/fragment_save_outfit.xml" value="0.23854166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

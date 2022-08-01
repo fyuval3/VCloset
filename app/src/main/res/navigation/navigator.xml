@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/entryFragment">
+
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.vcloset.ui.fragments.EntryFragment"
+        android:label="fragment_entry"
+        tools:layout="@layout/fragment_entry" >
+        <action
+            android:id="@+id/action_entryFragment_to_itemOptionsFragment"
+            app:destination="@id/itemOptionsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_entryFragment_to_outfitsListFragment"
+            app:destination="@id/outfitsListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemOptionsFragment"
+        android:name="com.vcloset.ui.fragments.ItemOptionsFragment"
+        android:label="fragment_item_options"
+        tools:layout="@layout/fragment_item_options" >
+        <action
+            android:id="@+id/action_itemOptionsFragment_to_saveOutfitFragment"
+            app:destination="@id/saveOutfitFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_itemOptionsFragment_to_outfitsListFragment"
+            app:destination="@id/outfitsListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_itemOptionsFragment_to_addClothingItemFragment"
+            app:destination="@id/addClothingItemFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/saveOutfitFragment"
+        android:name="com.vcloset.ui.fragments.SaveOutfitFragment"
+        android:label="fragment_save_outfit"
+        tools:layout="@layout/fragment_save_outfit" >
+        <action
+            android:id="@+id/action_saveOutfitFragment_to_outfitsListFragment"
+            app:destination="@id/outfitsListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/itemOptionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/outfitsListFragment"
+        android:name="com.vcloset.ui.fragments.OutfitsListFragment"
+        android:label="fragment_outfits_list"
+        tools:layout="@layout/fragment_outfits_list" />
+    <fragment
+        android:id="@+id/addClothingItemFragment"
+        android:name="com.vcloset.ui.fragments.AddClothingItem"
+        android:label="fragment_add_clothing_item"
+        tools:layout="@layout/fragment_add_clothing_item"/>
+</navigation>
